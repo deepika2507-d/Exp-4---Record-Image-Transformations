@@ -64,7 +64,10 @@ import matplotlib.pyplot as plt
 
 # Step 1: Load the image
 ```
-image = cv2.imread('Screenshot 2026-10-14 090543.png')  # Load the image from file
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+image = cv2.imread('myimage.png')  # Load the image from file
 
 # Display the original image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for correct display
